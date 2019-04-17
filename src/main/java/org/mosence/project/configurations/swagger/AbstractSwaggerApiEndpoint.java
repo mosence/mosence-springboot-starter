@@ -12,7 +12,6 @@ import springfox.documentation.swagger2.mappers.ServiceModelToSwagger2Mapper;
  * @date ：2019/03/29
  */
 @Endpoint(id = "api-docs")
-@Component
 public abstract class AbstractSwaggerApiEndpoint {
     static final String X_FORWARDED_PREFIX = "X-Forwarded-Prefix";
     protected DocumentationCache documentationCache;
